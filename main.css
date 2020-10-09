@@ -1,0 +1,228 @@
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.row{
+	background: #fff;
+	min-width: 960px;
+	padding: 66px 0 44px 0;
+	background: #eed600;
+}
+
+/*
+==============================
+Typography
+==============================
+*/
+
+h1, h2, h3, h4, p {
+	color: #000000;
+}
+
+h1 {
+	font-size: 36px;
+    line-height: 44px;
+    
+    text-align: center;
+    color:#2e8b57;
+	
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+    color: seagreen;
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    font-size: 21px;
+    text-align: center;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+h5 {
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	
+}
+
+p {
+    font-size: 18px;
+	text-align: center;
+	color: white;
+
+}
+
+h1, h3, h4, h5, p {
+	margin-bottom: 22px;
+}
+
+/*
+==============================
+Buttons
+==============================
+*/
+
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+	color: seagreen;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+
+.btn-alt {
+	border: 1px solid #dfe2e5;
+	padding: 10px 30px;
+}
+
+.btn-alt:hover {
+	background: #c2c1c1;
+	color: #648880;
+}
+
+/*
+==============================
+Primary Header
+==============================
+*/
+
+
+.primary-nav {
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+    background:#0000;
+	
+	
+}
+
+.nav {
+	text-align: right;
+	
+}
+
+.h1 {
+    background-color: #302d2d;
+}
+
+
+/*
+==============================
+Primary Footer
+==============================
+*/
+
+.primary-footer small {
+	float: left;
+	font-weight: 200;
+}
+
+.primary-footer {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #000000;
+      font-size: 14px;
+      font-style: italic;
+      background-color: #302d2d;
+}
+
+/*
+==============================
+  Links
+==============================
+*/
+
+a:hover {
+	color: #3cd1b8;
+}
+
+a {
+	color: seagreen;
+	text-decoration: none;
+}
+
+.primary-header a,
+.primary-footer a {
+	color:#fafdfb;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+	color: #020202;
+}
+
+/*
+==============================
+Home
+==============================
+*/
+
+.intro {
+	padding: 22px 80px 66px 80px;
+	line-height: 44px;
+	text-align: center;
+	color: #000;
+}
+
+.intro h2 {
+	font-size: 36px;
+}
+
+.intro p {
+	font-size: 24px;
+}
+
+.teaser a:hover h3 {
+	color: #a9b2b9;
+}
+
+.intro1 {
+	padding: 22px 80px 66px 80px;
+	line-height: 24px;
+	text-align: center;
+	color: #000;
+}
+/*
+==============================
+Table
+==============================
+*/
+
+.tb {
+	
+	padding-left: 70px;
+	padding-right: 30px;
+
+}
+
+.tb h1 {
+	padding-left: 30px;
+	padding-right: 30px;
+	color:seagreen;
+
+}
